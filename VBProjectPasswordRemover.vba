@@ -1,5 +1,5 @@
-# All credits to the author of this post:
-# https://stackoverflow.com/a/31005696
+'''# All credits to the author of this post:
+'''# https://stackoverflow.com/a/31005696
 
 
 Private Const PAGE_EXECUTE_READWRITE = &H40
