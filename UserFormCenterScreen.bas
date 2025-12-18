@@ -1,6 +1,12 @@
-With UserForm1
-  .StartUpPosition = 0
-  .Left = Application.Left + (0.5 * Application.Width) - (0.5 * .Width)
-  .Top = Application.Top + (0.5 * Application.Height) - (0.5 * .Height)
-  .Show
-End With
+Public Sub CenterUserForm(frm As Object)
+    With frm
+        .StartUpPosition = 0
+        .Left = Application.Left + (Application.Width - .Width) / 2
+        .Top = Application.Top + (Application.Height - .Height) / 2
+    End With
+End Sub
+
+Private Sub UserForm_Initialize()
+    CenterUserForm Me
+End Sub
+
