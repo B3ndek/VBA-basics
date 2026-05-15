@@ -16,7 +16,7 @@
 ' & '  1) Ensure the module is included in your VBA Project.
 ' & '  2) Attach the UserForm_Initialize subroutine to the desired UserForm.
 ' & '  3) The UserForm will automatically center itself when opened.
-"""
+' """
 
 Public Sub CenterUserForm(frm As Object)
     With frm
